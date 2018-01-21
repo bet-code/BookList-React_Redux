@@ -5,7 +5,7 @@ export default class BookList extends Component {
     rederList() {
         return this.props.books.map((book) => {
             return (
-                <li key={book.title}className="list-group-item">{book.title}</li>
+                <li key={book.title}className="list-item">{book.title}</li>
             )
         })
     }
